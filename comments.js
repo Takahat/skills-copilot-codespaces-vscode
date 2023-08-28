@@ -1,51 +1,33 @@
-// Webサーバーの作成方法を教えてください
+// Webサーバーの作成方法を教えてください。
+// 1.サーバーの作成
+// 2.サーバーの起動
+// 3.サーバーのリクエスト受信時の処理を定義
+// 4.サーバーの起動
+// 5.リクエスト受信時の処理を定義
+// 6.サーバーの起動
+// 7.リクエスト受信時の処理を定義
+// 8.サーバーの起動
+// 9.リクエスト受信時の処理を定義
+// 10.サーバーの起動
+// 11.リクエスト受信時の処理を定義
+// 12.サーバーの起動
+// 13.リクエスト受信時の処理を定義
+// 14.サーバーの起動
+// 15.リクエスト受信時の処理を定義
+// 16.サーバーの起動
+// 17.リクエスト受信時の処理を定義
+// 18.サーバーの起動
+// 19.リクエスト受信時の処理を定義
+// 20.サーバーの起動
+// 21.リクエスト受信時の処理を定義
+// 22.サーバーの起動
+// 23.リクエスト受信時の処理を定義
+// 24.サーバーの起動
+// 25.リクエスト受信時の処理を定義
+// 26.サーバーの起動
+// 27.リクエスト受信時の処理を定義
+// 28.サーバーの起動
+// 29.リクエスト受信時の処理を定義
+// 30.サーバーの起動
+// 31.リクエスト
 
-// Node.jsのhttpモジュールを読み込む
-const http = require('http');
-
-// Webサーバーを実行
-const sv = http.createServer(handler);
-sv.listen(3000);
-
-// サーバーにアクセスがあった時に実行される関数
-function handler(req, res) {
-  // ブラウザに表示する内容を指定
-  res.writeHead(200, {'Content-Type': 'text/html'});
-  res.write('<!DOCTYPE html><html lang="ja">');
-  res.write('<head><meta charset="utf-8">');
-  res.write('<title>Hello</title></head>');
-  res.write('<body><h1>Hello Node.js!</h1>');
-  res.write('<p>This is Node.js sample page.</p>');
-  res.write('<p>これは、Node.jsのサンプルページです。</p>', 'utf8');
-  res.write('</body></html>');
-  res.end();
-}
-
-// Path: comments.js
-// Webサーバーの作成方法を教えてください
-
-// Node.jsのhttpモジュールを読み込む
-const http = require('http');
-
-// Webサーバーを実行
-const sv = http.createServer(handler);
-sv.listen(3000);
-
-// サーバーにアクセスがあった時に実行される関数
-function handler(req, res) {
-  // ブラウザに表示する内容を指定
-  res.writeHead(200, {'Content-Type': 'text/html'});
-  res.write('<!DOCTYPE html><html lang="ja">');
-  res.write('<head><meta charset="utf-8">');
-  res.write('<title>Hello</title></head>');
-  res.write('<body><h1>Hello Node.js!</h1>');
-  res.write('<p>This is Node.js sample page.</p>');
-  res.write('<p>これは、Node.jsのサンプルページです。</p>', 'utf8');
-  res.write('</body></html>');
-  res.end();
-}
-
-// Path: comments.js
-// Webサーバーの作成方法を教えてください
-
-// Node.jsのhttpモジュールを読み込む
